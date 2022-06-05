@@ -23,7 +23,9 @@ const Home: NextPage = () => {
           <div className={style.namecontainer}>
             <div className={style.smallname}>Hi, my name is</div>
             <div className={style.name}>Chayse Stiver</div>
-            <div className={style.smallname}>...I&apos;m a web developer</div>
+            <div className={style.smallname}>
+              ...I&apos;m a full-stack web developer
+            </div>
           </div>
         </div>
       </div>
