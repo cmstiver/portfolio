@@ -1,1 +1,23 @@
 @use 'colors.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.projectimage {
+    position: relative;
+    width: 400px;
+    height: 400px;
+
+}
+
+.project {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    background-color: colors.$lightblack;
+}
