@@ -1,1 +1,13 @@
 @use 'colors.scss';
+
+.contact {
+    color: colors.$gray;
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2rem;
+    align-items: center;
+    font-family: sans-serif;
+}
