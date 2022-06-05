@@ -1,9 +1,18 @@
 @use 'colors.scss';
 
+.pagetitle {
+    display: flex;
+    color: colors.$lightcyan;
+    font-family: monospace;
+    font-size: 2rem;
+    justify-content: center;
+    padding-top: 100px;
+}
+
 .flexcontainer {
     margin-left: 100px;
     margin-right: 100px;
-    padding-top: 120px;
+    padding-top: 50px;
 }
 
 .skills {
