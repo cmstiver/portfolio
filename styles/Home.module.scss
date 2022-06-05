@@ -1,0 +1,38 @@
+@use 'colors.scss';
+
+.picwithtext {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 20rem 30rem;
+}
+
+.namecontainer {
+    
+    font-family: sans-serif;
+}
+
+.name {
+    color: colors.$lightcyan;
+    font-size: 5rem;
+    padding: 10px;
+}
+
+.smallname {
+    padding: 10px;
+    font-size: 3rem;
+    color: white;
+}
+
+.me {
+    border-radius: 100%;
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+}
