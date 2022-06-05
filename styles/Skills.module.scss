@@ -15,6 +15,7 @@
     width: 90%;
     min-width: 300px;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .skill {
@@ -54,5 +55,8 @@
     .grid {
         grid-template-columns: 100%;
         grid-template-rows: auto;
+    }
+    .flexcontainer {
+        padding-top: 50px;
     }
 }
