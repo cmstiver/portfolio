@@ -1,38 +1,61 @@
 @use 'colors.scss';
 
-.picwithtext {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-columns: 20rem 30rem;
+.container {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
 }
 
-.namecontainer {
-    
+.picwithtext {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 50% 50%;
     font-family: sans-serif;
 }
 
+.me {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.namecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .name {
-    color: colors.$lightcyan;
     font-size: 5rem;
-    padding: 10px;
+    color: colors.$lightcyan;
 }
 
 .smallname {
-    padding: 10px;
-    font-size: 3rem;
-    color: white;
+    color: colors.$gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 
-.me {
-    border-radius: 100%;
-}
-
-.waves {
-    position: absolute;
-    bottom: 0;
+@media only screen and (max-width: 900px) {
+    .container {
+        padding-top: 60px;
+    }
+    
+    .picwithtext {
+        grid-template-columns: 100%;
+    }
+    .namecontainer {
+        align-items: left;
+    }
+    .name {
+        font-size: 3rem;
+    }
 }
