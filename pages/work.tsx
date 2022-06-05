@@ -25,6 +25,12 @@ const Work: NextPage = () => {
         url="https://cmstiver.github.io/wheres-waldo/"
       />
       <ProjectCard
+        name="Weather App"
+        src="/projects/weatherapp.png"
+        alt="Weather App"
+        url="https://cmstiver.github.io/weather-app/"
+      />
+      <ProjectCard
         name="API Utilizing Blog"
         src="/projects/APIBlog.png"
         alt="API Utilizing Blog"
