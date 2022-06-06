@@ -6,8 +6,7 @@ const Contact: NextPage = () => {
     <div className={style.contact}>
       <div>I&apos;d love to hear from you!</div>
       <div>Please contact me at:</div>
-      <div> </div>
-      <div>chayse.stiver@gmail.com</div>
+      <div className={style.email}>chayse.stiver@gmail.com</div>
     </div>
   );
 };
