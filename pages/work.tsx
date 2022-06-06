@@ -23,6 +23,14 @@ const Work: NextPage = () => {
         srccode="https://github.com/cmstiver/cv-app"
       />
       <ProjectCard
+        name="API Utilizing Blog"
+        src="/projects/APIBlog.png"
+        alt="API Utilizing Blog"
+        url="https://api-utilizing-blog.vercel.app/"
+        desc="Blog using my personal RESTful API as a back-end and Next.js as the front-end. Comes with authentication and the ability to post comments/posts. Utilizes MongoDB as its database."
+        srccode="https://github.com/cmstiver/api-utilizing-blog"
+      />
+      <ProjectCard
         name="Where's Waldo"
         src="/projects/whereswaldo.png"
         alt="Where's Waldo"
@@ -37,14 +45,6 @@ const Work: NextPage = () => {
         url="https://cmstiver.github.io/weather-app/"
         desc="Project utilizing Open Weather API to provide a glance to what the weather is like outside."
         srccode="https://github.com/cmstiver/weather-app"
-      />
-      <ProjectCard
-        name="API Utilizing Blog"
-        src="/projects/APIBlog.png"
-        alt="API Utilizing Blog"
-        url="https://api-utilizing-blog.vercel.app/"
-        desc="Blog using my personal RESTful API as a back-end and Next.js as the front-end. Comes with authentication and the ability to post comments/posts. Utilizes MongoDB as its database."
-        srccode="https://github.com/cmstiver/api-utilizing-blog"
       />
       <ProjectCard
         name="Tic Tac Toe"
