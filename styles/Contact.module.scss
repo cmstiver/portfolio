@@ -4,7 +4,7 @@
     color: colors.$gray;
     display: flex;
     flex-direction: column;
-    padding-top: 250px;
+    padding-top: 200px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 1.5rem;
@@ -13,7 +13,32 @@
     font-family: sans-serif;
 }
 
-.email {
+.input {
+    margin-top: 5px;
+    height: 20px;
+    width: 200px;
+}
+
+.inputbox {
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.labelinput {
     margin-top: 20px;
-    color: colors.$lightcyan;
+}
+
+.button {
+    background-color: colors.$lightcyan;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: colors.$darkcyan;
+        cursor: pointer;
+    }
 }
