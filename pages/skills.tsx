@@ -6,7 +6,7 @@ import SkillContainer from "../components/SkillContainer";
 const Skills: NextPage = () => {
   return (
     <>
-      <div className={style.pagetitle}>I can utilize...</div>
+      <div className={style.pagetitle}>Tools and Skills</div>
       <div className={style.flexcontainer}>
         <div className={style.grid}>
           <SkillContainer name="Front-End">

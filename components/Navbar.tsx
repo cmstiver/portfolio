@@ -17,6 +17,9 @@ const Navbar: React.FC = () => {
         <Link href="/contact">
           <a className={style.btn}>Contact</a>
         </Link>
+        <Link href="https://drive.google.com/file/d/1_EoHN-78Wk24GaAfdurP2Y0LdLO4GxEp/view?usp=sharing">
+          <a className={style.btn}>Resume</a>
+        </Link>
       </div>
     </nav>
   );

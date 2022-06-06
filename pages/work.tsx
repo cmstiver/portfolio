@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import style from "../styles/Work.module.scss";
-import Image from "next/image";
 import ProjectCard from "../components/ProjectCard";
 
 const Work: NextPage = () => {
