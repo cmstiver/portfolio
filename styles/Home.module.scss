@@ -1,74 +1,74 @@
-@use 'colors.scss';
+@use "colors.scss";
 
 .container {
-    padding-top: 200px;
-    display: flex;
-    justify-content: center;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .picwithtext {
-    display: grid;
-    max-width: 1000px;
-    grid-template-columns: 50% 50%;
-    font-family: sans-serif;
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: 50% 50%;
+  font-family: sans-serif;
 }
 
 .me {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .pic {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 .namecontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .name {
-    font-size: 5rem;
-    color: colors.$lightcyan;
+  font-size: 5rem;
+  color: colors.$lightcyan;
 }
 
 .smallname {
-    color: colors.$gray;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 2rem;
+  color: colors.$gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 .links {
-    display: flex;
-    width: 200px;
-    justify-content: space-around;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
 }
 
 .icon {
-    z-index:2;
+  z-index: 2;
 }
 
 @media only screen and (max-width: 900px) {
-    .container {
-        padding-top: 60px;
-    }
-    
-    .picwithtext {
-        grid-template-columns: 100%;
-    }
-    .namecontainer {
-        align-items: left;
-    }
-    .name {
-        font-size: 3rem;
-    }
+  .container {
+    padding-top: 60px;
+  }
+
+  .picwithtext {
+    grid-template-columns: 100%;
+  }
+  .namecontainer {
+    align-items: left;
+  }
+  .name {
+    font-size: 3rem;
+  }
 }

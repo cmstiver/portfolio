@@ -1,50 +1,50 @@
-@use 'colors.scss';
+@use "colors.scss";
 
 .contact {
-    color: colors.$gray;
-    display: flex;
-    flex-direction: column;
-    padding-top: 200px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 1.5rem;
-    text-align: center;
-    align-items: center;
-    font-family: sans-serif;
+  color: colors.$gray;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  font-family: sans-serif;
 }
 
 .input {
-    margin-top: 5px;
-    height: 20px;
-    width: 200px;
+  margin-top: 5px;
+  height: 20px;
+  width: 200px;
 }
 
 .inputbox {
-    width: 300px;
-    height: 200px;
-    margin-top: 5px;
+  width: 300px;
+  height: 200px;
+  margin-top: 5px;
 }
 
 .labelinput {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .button {
-    background-color: colors.$lightcyan;
-    border: none;
-    width: 100px;
-    height: 40px;
-    margin-top: 20px;
-    border-radius: 10px;
+  background-color: colors.$lightcyan;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
 
-    &:hover {
-        background-color: colors.$darkcyan;
-        cursor: pointer;
-    }
+  &:hover {
+    background-color: colors.$darkcyan;
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .contact {
-        padding-top: 80px;
-    }
+  .contact {
+    padding-top: 80px;
+  }
 }
