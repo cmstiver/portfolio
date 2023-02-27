@@ -22,14 +22,6 @@ const Work: NextPage = () => {
         srccode="https://github.com/cmstiver/cv-app"
       />
       <ProjectCard
-        name="API Utilizing Blog"
-        src="/projects/APIBlog.png"
-        alt="API Utilizing Blog"
-        url="https://api-utilizing-blog.vercel.app/"
-        desc="Blog using my personal RESTful API as a back-end and Next.js as the front-end. Comes with authentication and the ability to post comments/posts. Utilizes MongoDB as its database."
-        srccode="https://github.com/cmstiver/api-utilizing-blog"
-      />
-      <ProjectCard
         name="Where's Waldo"
         src="/projects/whereswaldo.png"
         alt="Where's Waldo"
