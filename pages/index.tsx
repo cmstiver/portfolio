@@ -11,7 +11,7 @@ const Home: NextPage = () => {
           <div className={style.me}>
             <div className={style.pic}>
               <Image
-                src="https://avatars.githubusercontent.com/u/74641218"
+                src="https://avatars.githubusercontent.com/u/74641218?v=4"
                 alt="Picture of me."
                 layout="fill"
                 objectFit="cover"
